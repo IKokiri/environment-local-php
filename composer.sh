@@ -3,4 +3,4 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'c5b9b6d368201a9db6f74
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 php composer-setup.php --install-dir=bin --filename=composer
-sudo mv composer.phar /usr/local/bin/composer
+mv composer.phar /usr/local/bin/composer
