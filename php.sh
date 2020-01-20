@@ -6,3 +6,4 @@ apt -y install php7.4
 apt-get -y install php-zip
 apt-get install php-mbstring
 apt-get install php-xml
+apt-get isntall php-mysql
